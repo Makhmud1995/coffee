@@ -1,6 +1,12 @@
 import React from "react";
 import Filtro from "../../assets/Filtro.svg";
 import Apple from "../../assets/apple.svg";
+import Coffee from "../../assets/Coffee.png";
+import Brands1 from "../../assets/1.svg";
+import Brands2 from "../../assets/2.svg";
+import Brands3 from "../../assets/3.svg";
+import Brands4 from "../../assets/4.svg";
+import Icon from "../../assets/icon.svg";
 
 const HomePage = () => {
   return (
@@ -48,7 +54,203 @@ const HomePage = () => {
       </div>
       {/* contant 1 finish */}
       {/* contant 2 start */}
-      <div className=" flex bg-[#FFFADA] h-[720px]"></div>
+      <div className=" flex flex-col bg-[#FFFADA] h-[720px]">
+        <div className="flex  w-[100%] items-center justify-between mt-12 h-8">
+          <div className="w-[40%] border-b-4 border-[#A0583C] ml-8 "></div>
+          <div className="w-[20%] flex items-center justify-center text-[#C08267] text-3xl font-sans">
+            Explore the Coffee World
+          </div>
+          <div className="w-[40%] border-b-4 border-[#A0583C] mr-8"></div>
+        </div>
+        <div className=" flex justify-evenly h-[450px]">
+          <div className="flex-col rounded-2xl w-64 bg-[#C08267] mt-28  h-[450px]">
+            <div className="w-42  m-[15px]">
+              <img src={Coffee} alt=""></img>
+            </div>
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans ">
+              Cappacino
+            </div>
+            <div className="text-[#FFFADA] w-[236px] p-3 mt-12 text-xs font-sans font-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa,
+              fermentum id id vitae, integer fermentum tellus. In vitae id nisl
+              quis ornare diam commodo in vel dolor.
+            </div>
+            <div className="flex items-center justify-between p-3 mt-[25px] ">
+              <div className="text-[white]">$8.60</div>
+              <div>
+                <button className="rounded-[10px] w-32 p-3     text-[white] bg-orange-800">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex-col rounded-2xl w-64 bg-[#C08267] mt-28  h-[450px]">
+            <div className="w-42  m-[15px]">
+              <img src={Coffee} alt=""></img>
+            </div>
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans ">
+              Cappacino
+            </div>
+            <div className="text-[#FFFADA] w-[236px] p-3 mt-12 text-xs font-sans font-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa,
+              fermentum id id vitae, integer fermentum tellus. In vitae id nisl
+              quis ornare diam commodo in vel dolor.
+            </div>
+            <div className="flex items-center justify-between p-3 mt-[25px] ">
+              <div className="text-[white]">$8.60</div>
+              <div>
+                <button className="rounded-[10px] w-32 p-3     text-[white] bg-orange-800">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex-col rounded-2xl w-64 bg-[#C08267] mt-28  h-[450px]">
+            <div className="w-42  m-[15px]">
+              <img src={Coffee} alt=""></img>
+            </div>
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans ">
+              Cappacino
+            </div>
+            <div className="text-[#FFFADA] w-[236px] p-3 mt-12 text-xs font-sans font-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa,
+              fermentum id id vitae, integer fermentum tellus. In vitae id nisl
+              quis ornare diam commodo in vel dolor.
+            </div>
+            <div className="flex items-center justify-between p-3 mt-[25px] ">
+              <div className="text-[white]">$8.60</div>
+              <div>
+                <button className="rounded-[10px] w-32 p-3     text-[white] bg-orange-800">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex-col rounded-2xl w-64 bg-[#C08267] mt-28  h-[450px]">
+            <div className="w-42  m-[15px]">
+              <img src={Coffee} alt=""></img>
+            </div>
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans ">
+              Cappacino
+            </div>
+            <div className="text-[#FFFADA] w-[236px] p-3 mt-12 text-xs font-sans font-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa,
+              fermentum id id vitae, integer fermentum tellus. In vitae id nisl
+              quis ornare diam commodo in vel dolor.
+            </div>
+            <div className="flex items-center justify-between p-3 mt-[25px] ">
+              <div className="text-[white]">$8.60</div>
+              <div>
+                <button className="rounded-[10px] w-32 p-3     text-[white] bg-orange-800">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className=" flex flex-col bg-[#FFFADA] h-[520px]">
+        <div className="flex  w-[100%] items-center justify-between mt-12 h-8">
+          <div className="w-[40%] border-b-4 border-[#A0583C] ml-8 "></div>
+          <div className="w-[20%] flex items-center justify-center text-[#C08267] text-3xl font-sans">
+            Brands We Work With{" "}
+          </div>
+          <div className="w-[40%] border-b-4 border-[#A0583C] mr-8"></div>
+        </div>
+        <div className="flex justify-around items-center">
+          <div>
+            <img src={Brands1} alt=""></img>
+          </div>
+          <div>
+            <img src={Brands2} alt=""></img>
+          </div>
+          <div>
+            <img src={Brands3} alt=""></img>
+          </div>
+          <div>
+            <img src={Brands4} alt=""></img>
+          </div>
+        </div>
+      </div>
+      <div className=" flex flex-col bg-[#C08267] h-[460px]">
+        <div className="flex  w-[100%] items-center justify-between mt-12 h-8">
+          <div className="w-[40%] border-b-4 border-[#FFFADA] ml-8 "></div>
+          <div className="w-[20%] flex items-center justify-center text-[#FFFADA] text-3xl font-sans">
+            Get in Touch with Us
+          </div>
+          <div className="w-[40%] border-b-4 border-[#FFFADA] mr-8"></div>
+        </div>
+        <div className="flex justify-around">
+          <div className="flex flex-col">
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans">
+              Merchandise
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-2 mt-[15px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-6 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-7 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans">
+              Merchandise
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-2 mt-[15px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-6 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-7 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans">
+              Merchandise
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-2 mt-[15px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-6 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-7 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <div className="text-[white] p-3 w-[143px] mt-[10px] h-2 text-3xl font-sans">
+              Merchandise
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-2 mt-[15px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-6 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+            <div className="text-[white] p-3 w-[143px] h-7 mt-[5px] text-2xl font-sans">
+              T-shirts
+            </div>
+          </div>
+        </div>
+        <div className="w-[100%] mt-36 border-b-4 border-[#FFFADA] mr-8"></div>
+        <div className="flex justify-center items-center mt-6">
+          <div>
+            <img src={Icon} alt=""></img>
+          </div>
+          <div>
+            <img src={Filtro} alt=""></img>
+          </div>
+          <div className="text-[white] text-3xl font-sans">
+            All Rights Reserved
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
